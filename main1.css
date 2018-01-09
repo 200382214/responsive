@@ -1,0 +1,19 @@
+
+.w3-wide{
+  letter-spacing:5px;
+    margin-left: 2%;
+    color: white;
+    
+
+}
+.w3-white,.w3-hover-white:hover{color:red;background-color:black;padding:0.8%;margin: 2% 2%!important
+}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover
+{color:blue!important;background-color:skyblue;padding-block-end: 1%}
+.navbar{
+  border-radius:0;
+  border:0;
+}
+body{
+  padding-top: 70px;
+}
