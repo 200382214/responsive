@@ -12,16 +12,19 @@
 {color:blue!important;background-color:skyblue;padding-block-end: 1%}
 
 header .navbar{
-  padding: 30px 0;
+  padding: 10px 0;
+  
 }
 header .navbar-default{
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.3);
   border: none;
+ 
 
 }
 header .navbar-default .navbar-nav a{
   color: white;
-  padding: 5px 8px;
+  padding: 10px 10px;
+  font-size: 20px;
 
 }
 header .navbar-default .navbar-nav a:hover{
@@ -33,6 +36,7 @@ header .navbar-default .navbar-nav .active a{
   background: transparent;
   border-bottom: 4px solid red;
   text-shadow: none;
+   color: white;
 }
 header .navbar-default .navbar-nav .active a:hover{
   
@@ -44,9 +48,10 @@ header .navbar-default .navbar-nav .active a:hover{
 
 
 header .navbar-brand h1{
-  margin: 0;
+  margin: -0.2cm;
   font-size:1.8em;
   font-weight: 400;
+   color: white;
   
 }
 header .navbar-brandr-brand span.subhead{
@@ -55,12 +60,15 @@ header .navbar-brandr-brand span.subhead{
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
   
+  color: white;
+  
 }
 header .navbar-toggle{
   background-color: #279182;
 }
 header .navbar-default .navbar-toggle .icon-bar{
   background-color: white;
+   color: white;
 }
 @media only screen and (max-width:786px){
 header .navbar-collapse.in{
@@ -85,7 +93,9 @@ footer .navbar-default{
   background: transparent;
 
 }
-
+img{
+  max-width: 200px;
+}
 .page,.skills{
   padding:50px 0;
 }
